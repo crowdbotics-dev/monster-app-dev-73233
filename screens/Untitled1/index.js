@@ -9,7 +9,7 @@ const Untitled1 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><Text style={styles.DLoaYQWX}>Testing world </Text></ScrollView>
+    }}><Text style={styles.DLoaYQWX}>Testing world worlk</Text></ScrollView>
     </SafeAreaView>;
 };
 
