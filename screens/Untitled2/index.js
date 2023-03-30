@@ -1,3 +1,4 @@
+import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
@@ -9,7 +10,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.QsUnWRFx} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground></ScrollView>
+    }}><ImageBackground style={styles.QsUnWRFx} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground><Text style={styles.DAEpWcpz}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
@@ -23,6 +24,13 @@ const styles = StyleSheet.create({
     position: "absolute",
     left: 76,
     top: 107
+  },
+  DAEpWcpz: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
 });
 export default Untitled2;

@@ -37,7 +37,7 @@ const AccountScreen = () => {
 
                     </View>
                     <View style={styles.inputContainer}>
-                        <Text style={styles.inputText}>Last Name test</Text>
+                        <Text style={styles.inputText}>Last Name test </Text>
                         <TextInput style={styles.input} onChangeText={text => setLastName(text)} value={userInfo?.last_name} placeholder="Enter" placeholderTextColor="#000" autoCapitalize="none" autoCorrect={false} />
 
                     </View>
