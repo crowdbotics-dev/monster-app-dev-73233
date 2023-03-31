@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
@@ -10,7 +11,7 @@ const Untitled2 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}><ImageBackground style={styles.QsUnWRFx} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground><Text style={styles.DAEpWcpz}>Lorem ipsum…</Text></ScrollView>
+    }}><Pressable><ImageBackground style={styles.QsUnWRFx} source={require("./dragon 6.jpg")} resizeMode="cover"></ImageBackground></Pressable><Text style={styles.DAEpWcpz}>Lorem ipsum…</Text></ScrollView>
     </SafeAreaView>;
 };
 
