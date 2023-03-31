@@ -24,7 +24,8 @@ const styles = StyleSheet.create({
     flex: 1
   },
   row2: {
-    flex: 1
+    flex: 1,
+    borderRadius: 51
   },
   row3: {
     flex: 1

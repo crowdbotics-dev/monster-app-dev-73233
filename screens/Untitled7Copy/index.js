@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
   column2: {
     flex: 1,
     opacity: 0.74,
-    backgroundColor: "#e14040"
+    backgroundColor: "#e14040",
+    borderRadius: 33
   },
   column3: {
     flex: 1
