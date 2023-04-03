@@ -2,7 +2,12 @@ import { Text } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
-const Untitled9 = () => {
+const Untitled9 = ({
+  route
+}) => {
+  const {
+    TestingParam = 12345
+  } = route.params || {};
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       flex: 1,
