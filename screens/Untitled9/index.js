@@ -5,9 +5,7 @@ import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 const Untitled9 = ({
   route
 }) => {
-  const {
-    TestingParam = 12345
-  } = route.params || {};
+  const {} = route.params || {};
   return <SafeAreaView style={styles.safeArea}>
       <ScrollView contentContainerStyle={{
       flex: 1,
