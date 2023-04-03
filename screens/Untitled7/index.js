@@ -1,3 +1,4 @@
+import { Pressable } from "react-native";
 import React from "react";
 import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
@@ -11,7 +12,7 @@ const Untitled7 = () => {
       backgroundColor: '#f0f0f1'
     }}>
         
-          <View style={styles.column1}></View>
+          <Pressable><View style={styles.column1}></View></Pressable>
           <View style={styles.column2}></View>
           <View style={styles.column3}></View>
         

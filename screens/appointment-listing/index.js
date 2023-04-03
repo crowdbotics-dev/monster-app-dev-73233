@@ -1,3 +1,5 @@
+import { useNavigation } from "@react-navigation/native";
+import { Pressable } from "react-native";
 import React, { useState, useEffect } from "react";
 import { Text, StyleSheet, View, SafeAreaView, Image, FlatList } from "react-native";
 
@@ -90,6 +92,7 @@ export default AppointmentListScreen;
 const Appointment = ({
   item
 }) => {
+  const navigation = useNavigation();
   return <View style={appointmentStyles.appointmentContainer}>
       <View style={appointmentStyles.imgContainer}>
         <Image source={item.image} style={appointmentStyles.img} />
@@ -97,7 +100,11 @@ const Appointment = ({
       <View style={appointmentStyles.desContainer}>
         <Text>{item.name}</Text>
         <View style={appointmentStyles.timings}>
-          <Text style={appointmentStyles.timingText}>{item.date}</Text>
+          <Pressable onPress={() => {
+          navigation.navigate("Untitled7Copy", {
+            test: "test344"
+          });
+        }}><Text style={appointmentStyles.timingText}>{item.date}</Text></Pressable>
           <Text style={appointmentStyles.timingText}>,</Text>
           <Text style={appointmentStyles.timingText}>{item.time}</Text>
         </View>
